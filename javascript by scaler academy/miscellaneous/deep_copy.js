@@ -1,32 +1,26 @@
 // immutable
 
 let firstName = {
-    name:'Adam',
-    age:23,
-    address:{
-        locality:'80 feet road',
-        colony:'gokul',
-        city:'Delhi'
-    }
-}
+  name: "Adam",
+  age: 23,
+  address: {
+    locality: "80 feet road",
+    colony: "gokul",
+    city: "Delhi",
+  },
+};
 
-
-
-firstName.address.city='Bijnor';
-
-
+firstName.address.city = "Bijnor";
 
 // let secondName = {...firstName};
 let secondName = JSON.parse(JSON.stringify(firstName));
 
-secondName.name = 'second name';
+secondName.name = "second name";
 
-secondName.address.colony='Badarpur';
+secondName.address.colony = "Badarpur";
 
-console.log('first name');
+console.log("first name");
 console.log(firstName);
-console.log('second name');
+console.log("second name");
 
 console.log(secondName);
-
-

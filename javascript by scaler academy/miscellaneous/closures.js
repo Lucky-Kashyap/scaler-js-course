@@ -16,30 +16,24 @@
 
 // fun();
 
+function greet() {
+  let name = "Steve";
 
-function greet(){
-    let name = 'Steve';
+  function displayName() {
+    let age = 23;
 
-    function displayName(){
-        let age = 23;
+    console.log(`Hi ${name}`);
 
-        console.log(`Hi ${name}`);
-
-        function displayAge(){
-            console.log(`Age : ${age} Name ${name} `);
-        }
-        return displayAge;
+    function displayAge() {
+      console.log(`Age : ${age} Name ${name} `);
     }
-    return displayName;
+    return displayAge;
+  }
+  return displayName;
 }
-
-
 
 let greetFun = greet();
 
-let greetAge =greetFun();
+let greetAge = greetFun();
 
 greetAge();
-
-
-

@@ -1,17 +1,14 @@
-
-
 // let sum = function(x,y){
 //     console.log(x+y);
 // }
 
-
 // sum(2,3);
 
-let sumCurried = function(x){
-    return function(y){
-        console.log(x+y);
-    }
-}
+let sumCurried = function (x) {
+  return function (y) {
+    console.log(x + y);
+  };
+};
 
 // sumCurried(2)(4);
 
@@ -20,5 +17,3 @@ let sumCurried = function(x){
 // sumTwo(90);
 
 sumCurried(90)(18);
-
-
