@@ -7,6 +7,8 @@
 // null
 // NaN
 // undefined
+// 0n
+
 
 // truthy
 
@@ -52,7 +54,11 @@
             }
         }
     }
-})();
+})
+
+if(1n){
+    console.log(true);
+}
 
 
 
