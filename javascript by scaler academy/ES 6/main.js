@@ -12,16 +12,10 @@
 //   console.log(a / b);
 // }
 
-
 // import { addition } from "./calc";
 
 // addition(2,3);
 
-const calculator = require('./calc');
+const calculator = require("./calc");
 
-
-calculator.addition(20,10);
-
-
-
-
+calculator.addition(20, 10);

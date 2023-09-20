@@ -18,4 +18,3 @@ module.exports = {
   multiplication: mul,
   division: div,
 };
-
