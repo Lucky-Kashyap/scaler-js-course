@@ -1,8 +1,5 @@
-
-
 var a = 12;
 
-var name = 'Adam';
+var name = "Adam";
 
 console.log(name);
-
