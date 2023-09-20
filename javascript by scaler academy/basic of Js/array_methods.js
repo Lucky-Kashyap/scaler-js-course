@@ -15,6 +15,6 @@ console.log(arr);
 
 // add at first index
 
-arr.unshift('lucky');
+arr.unshift("lucky");
 
 console.log(arr);
