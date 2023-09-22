@@ -1,28 +1,12 @@
-// 'use strict';
-
-// let a = 10;
-// a = 20;
-
-// console.log(a);
-
-// this
-
 // console.log(this);
 
 // function sum(){
-// console.log(this);  // global object
+//     console.log(this);
 // }
 
 // sum();
 
-// let obj = {
-//   name: this,
-// };
-
-// console.log(obj);
-// console.log(obj.name);
-
-// let moObj = {
+// let obj ={
 //     name:'Adam',
 //     age:23,
 //     myFn:function(){
@@ -30,15 +14,8 @@
 //     }
 // }
 
-// moObj.myFn();
-
-// let moObj = {
-//     name:'Adam',
-//     age:23,
-//     myFn:()=>{
-//         console.log(this);
-//     }
-// }
+// console.log(obj);
+// obj.myFn();
 
 let moObj = {
   name: "Adam",
