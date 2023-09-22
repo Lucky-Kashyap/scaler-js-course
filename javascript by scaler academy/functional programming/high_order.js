@@ -25,6 +25,6 @@ const dolor = 80;
 // console.log(transactionsInDolors);
 
 transactions.forEach((amt) => console.log(amt / dolor));
-  
+
 //   console.log(transactionsInDolors1);
 //   console.log(transactions);

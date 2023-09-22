@@ -15,8 +15,7 @@
 
 // square(a);
 
-const checkForSquare = (x)=> (x*x%2 === 0 ?true:false);
-
+const checkForSquare = (x) => ((x * x) % 2 === 0 ? true : false);
 
 console.log(checkForSquare(9));
 
