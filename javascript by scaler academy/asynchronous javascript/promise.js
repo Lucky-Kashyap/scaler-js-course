@@ -1,5 +1,5 @@
 let promise = new Promise((res, rej) => {
-  let a = 1;
+  let a = 2;
 
   if (a == 1) {
     res("Promise resolved");
@@ -8,4 +8,4 @@ let promise = new Promise((res, rej) => {
   }
 });
 
-promise.then((res) => console.log(res));
+promise.then((res) => console.log(res)).catch((r) => console.log(r));
