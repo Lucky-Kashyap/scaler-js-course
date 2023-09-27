@@ -7,3 +7,5 @@ let promise = new Promise((res, rej) => {
     rej("Promise failed");
   }
 });
+
+promise.then((res) => console.log(res));
